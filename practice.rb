@@ -36,7 +36,7 @@ def hello_t(array)
     yield array[i]
     i += 1 
   end
-  array
+  p array
 end
 
 hello_t(["Tim", "Tom", "Jim"]) do |name|
