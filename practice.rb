@@ -12,10 +12,18 @@ end
 
 # the yield keyword will allow you to call the method with a block of code and pass the torch, or yield, to that block.
 
-def yielding
+# def yielding
+#   puts "the program is executiong the code inside the method"
+#   yield
+#   puts "now we are back in the method"
+# end 
+
+yielding { puts "the method has yielded to the block!" }
+
+# Yielding with parameters 
+
+def yielding(num)
   puts "the program is executiong the code inside the method"
   yield
   puts "now we are back in the method"
 end 
-
-yielding { puts "the method has yielded to the block!" }
