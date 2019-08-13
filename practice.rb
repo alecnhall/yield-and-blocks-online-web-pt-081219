@@ -29,3 +29,9 @@ def yielding_with_arguments(num)
 end 
 
 yielding_with_arguments(2) { |i| puts i * 2 }
+
+def hello_t(array)
+  i = 0 
+  while i < i.length 
+    i += 1
+end
