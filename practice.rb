@@ -32,7 +32,7 @@ yielding_with_arguments(2) { |i| puts i * 2 }
 
 def hello_t(array)
   i = 0 
-  while i < i.length 
+  while i < array.length 
     yield array[i]
     i += 1 
   end
